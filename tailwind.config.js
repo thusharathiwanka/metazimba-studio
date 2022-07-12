@@ -4,8 +4,12 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				"meta-grey": "#F3F1F6",
+				"meta-gray": "#F3F1F6",
+				"meta-dark-gray": "#1A232E",
 				"meta-purple": "#6A55EA",
+			},
+			backgroundImage: {
+				"intro-pattern": "url('/public/images/intro-metaverse.png')",
 			},
 		},
 	},
