@@ -28,4 +28,10 @@ const data = [
 	},
 ];
 
-export { data };
+const guidelines = [
+	{ id: 1, title: "Explore the metazimba studios" },
+	{ id: 2, title: "Find what suits you better" },
+	{ id: 3, title: "Stay on the gas and have fun" },
+];
+
+export { data, guidelines };
