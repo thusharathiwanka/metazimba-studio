@@ -7,6 +7,12 @@ module.exports = {
 				"meta-gray": "#F3F1F6",
 				"meta-dark-gray": "#1A232E",
 				"meta-purple": "#6A55EA",
+				"meta-orange": "#F8F0E6",
+				"meta-dark-orange": "#FAB155",
+				"meta-blue": "#E7F0F0",
+				"meta-dark-blue": "#4BC8C8",
+				"meta-red": "#F7DEDE",
+				"meta-dark-red": "#DF535A",
 			},
 			backgroundImage: {
 				"intro-pattern": "url('/public/images/intro-metaverse.png')",
