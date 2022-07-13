@@ -18,7 +18,7 @@ const TeamSection = () => {
 				<h1 className="font-bold lg:text-6xl md:text-4xl pb-40 text-center text-meta-dark-gray pt-20">
 					Our Team
 				</h1>
-				<div className="flex justify-center items-center gap-10 md:flex-nowrap flex-wrap pb-32">
+				<div className="flex justify-center items-center gap-5 md:flex-nowrap flex-wrap pb-32">
 					{team.map(element => (
 						<TeamCard element={element} key={element.id} />
 					))}

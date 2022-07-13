@@ -17,6 +17,7 @@ module.exports = {
 			},
 			backgroundImage: {
 				"intro-pattern": "url('/public/images/intro-metaverse.png')",
+				"footer-pattern": "url('/public/images/footer-metaverse.png')",
 			},
 		},
 	},
