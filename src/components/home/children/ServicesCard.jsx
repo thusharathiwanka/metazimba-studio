@@ -1,6 +1,5 @@
 const ServicesCard = ({ element }) => {
 	const { title, img, description, color, title_color } = element;
-	console.log(color, title_color);
 
 	return (
 		<div className={`${color} pt-36 mx-10 px-10 relative rounded-3xl pb-10`}>

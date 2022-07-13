@@ -39,4 +39,11 @@ const slides = [
 	{ id: 2, img: "/images/slider-2.png" },
 ];
 
-export { data, guidelines, slides };
+const team = [
+	{ id: 1, title: "Founder", name: "John Doe", img: "/images/team-1.png" },
+	{ id: 2, title: "Co-Founder", name: "Jane Doe", img: "/images/team-2.png" },
+	{ id: 3, title: "Product Manager", name: "Jane Doe", img: "/images/team-3.png" },
+	{ id: 4, title: "Sales Manager", name: "John Doe", img: "/images/team-4.png" },
+];
+
+export { data, guidelines, slides, team };
