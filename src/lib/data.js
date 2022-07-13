@@ -34,4 +34,9 @@ const guidelines = [
 	{ id: 3, title: "Stay on the gas and have fun" },
 ];
 
-export { data, guidelines };
+const slides = [
+	{ id: 1, img: "/images/slider-1.png" },
+	{ id: 2, img: "/images/slider-2.png" },
+];
+
+export { data, guidelines, slides };
