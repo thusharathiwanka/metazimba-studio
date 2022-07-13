@@ -23,7 +23,7 @@ const ServiceSection = () => {
 				<h1 className="font-bold lg:text-6xl md:text-4xl pb-40 text-center text-meta-dark-gray pt-20">
 					Our Services
 				</h1>
-				<div className="flex justify-center items-center gap-10 py-20 md:flex-nowrap flex-wrap">
+				<div className="flex justify-center items-center py-20 gap-10 flex-wrap">
 					{data.map(element => (
 						<ServicesCard element={element} key={element.id} />
 					))}

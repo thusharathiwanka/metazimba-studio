@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 
-export default function Nav() {
+export default function Nav({ isFooter }) {
 	return (
 		<div>
-			<ul className="flex gap-8 font-medium text-meta-dark-gray md:flex-row flex-col">
+			<ul
+				className={`flex gap-8 font-medium text-meta-dark-gray ${
+					!isFooter ? `md:flex-row flex-col` : `flex-col`
+				}`}
+			>
 				<li>
 					<Link to="/">Marketplace</Link>
 				</li>

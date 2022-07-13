@@ -5,9 +5,9 @@ import {
 	RiYoutubeFill,
 } from "react-icons/ri";
 
-export default function Social() {
+export default function Social({ isFooter }) {
 	return (
-		<div className="justify-center py-2 md:flex hidden">
+		<div className={`justify-center py-2 ${!isFooter ? `md:flex hidden` : `flex`}`}>
 			<div className="flex gap-6">
 				<a href="https://facebook.com" rel="noopener noreferrer" target="_blank">
 					<RiFacebookCircleFill size={20} />

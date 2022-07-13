@@ -5,12 +5,12 @@ import Social from "./children/Social";
 
 const Footer = () => {
 	return (
-		<section className="bg-footer-pattern bg-no-repeat md:pt-0 pt-20">
-			<div className="container mx-auto">
+		<footer className="bg-footer-pattern bg-no-repeat bg-bottom md:pt-0 pt-20">
+			<div className="container mx-auto md:px-0 px-10">
 				<h1 className="pt-14 text-4xl pb-12 font-medium text-center text-meta-dark-gray">
 					Subscribe to Newsletter
 				</h1>
-				<form className="flex flex-col justify-center items-center w-1/2 mx-auto">
+				<form className="flex flex-col justify-center items-center md:w-1/2 w-2/3 mx-auto">
 					<input type="text" className="w-full py-3 px-8 outline-none rounded-full" />
 					<button
 						type="submit"
@@ -19,12 +19,12 @@ const Footer = () => {
 						Subscribe
 					</button>
 				</form>
-				<div className="py-20">
-					<div className="flex justify-between items-center">
+				<div className="pt-20 pb-10">
+					<div className="flex justify-between items-center flex-wrap md:">
 						<Link to="/">
 							<img src="/images/logo.png" alt="logo-png" className="w-52" />
 						</Link>
-						<Social />
+						<Social isFooter />
 					</div>
 					<div className="flex justify-between items-center mt-10">
 						<Nav />
@@ -32,7 +32,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-		</section>
+		</footer>
 	);
 };
 
