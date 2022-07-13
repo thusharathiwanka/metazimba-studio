@@ -23,7 +23,7 @@ const Header = () => {
 
 				<ul
 					className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-meta-gray md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-						open ? "top-16 pt-10" : "top-[-490px]"
+						open ? "top-16 pt-10 pl-12" : "top-[-490px]"
 					}`}
 				>
 					<Nav />
