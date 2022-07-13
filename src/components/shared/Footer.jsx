@@ -7,14 +7,14 @@ const Footer = () => {
 	return (
 		<section className="bg-footer-pattern bg-no-repeat md:pt-0 pt-20">
 			<div className="container mx-auto">
-				<h1 className="pt-14 text-4xl pb-12 text-center text-meta-dark-gray">
+				<h1 className="pt-14 text-4xl pb-12 font-medium text-center text-meta-dark-gray">
 					Subscribe to Newsletter
 				</h1>
 				<form className="flex flex-col justify-center items-center w-1/2 mx-auto">
 					<input type="text" className="w-full py-3 px-8 outline-none rounded-full" />
 					<button
 						type="submit"
-						className="text-white py-2 bg-meta-purple px-10 text-lg flex items-center rounded-full mt-5"
+						className="text-white py-3 bg-meta-purple px-10 text-lg flex items-center rounded-full mt-5"
 					>
 						Subscribe
 					</button>

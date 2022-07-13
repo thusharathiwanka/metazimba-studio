@@ -2,7 +2,7 @@ const Slider = ({ element }) => {
 	const { img } = element;
 
 	return (
-		<div className="container mx-auto md:px-20 px-8 relative text-white">
+		<div className="relative text-white">
 			<div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
 				<h1 className="font-bold text-6xl text-center  pb-12 uppercase tracking-wider">
 					Metazimba

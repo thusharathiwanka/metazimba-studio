@@ -15,12 +15,12 @@ const GuideSection = () => {
 				className="absolute right-10 bottom-0 z-[-10]"
 			/>
 			<div className="container mx-auto">
-				<div className="flex justify-center gap-10">
-					<div className="flex-1">
+				<div className="flex justify-center gap-20">
+					<div className="">
 						<img src="/images/guide-img.png" alt="intro" className="object-cover" />
 					</div>
 					<div>
-						<h1 className="font-bold lg:text-6xl md:text-4xl pb-12 flex-1">
+						<h1 className="font-bold lg:text-6xl md:text-4xl pb-12">
 							<span className="text-meta-purple">Get Started </span>
 							<span className="text-meta-dark-gray">
 								with

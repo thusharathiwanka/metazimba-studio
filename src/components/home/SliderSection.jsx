@@ -11,7 +11,7 @@ const SliderSection = () => {
 
 	return (
 		<section className="pt-16 pb-20">
-			<div className="container mx-auto md:px-20 px-8">
+			<div>
 				<Swiper autoplay={{ delay: 3000 }} slidesPerView={1} loop>
 					{slides.map(element => (
 						<SwiperSlide key={element.id}>

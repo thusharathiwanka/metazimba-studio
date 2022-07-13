@@ -3,7 +3,7 @@ import TeamCard from "./children/TeamCard";
 
 const TeamSection = () => {
 	return (
-		<section className="py-20 relative">
+		<section className="pb-20 pt-10 relative">
 			<img
 				src="/images/team-left-astroid.png"
 				alt="left-astroid"
@@ -12,13 +12,13 @@ const TeamSection = () => {
 			<img
 				src="/images/team-right-astroid.png"
 				alt="right-astroid"
-				className="absolute right-10 top-28 z-[-10]"
+				className="absolute right-10 top-0 z-[-10]"
 			/>
 			<div className="container mx-auto">
 				<h1 className="font-bold lg:text-6xl md:text-4xl pb-40 text-center text-meta-dark-gray pt-20">
 					Our Team
 				</h1>
-				<div className="flex justify-center items-center gap-5 md:flex-nowrap flex-wrap pb-32">
+				<div className="flex justify-center items-center pb-32 flex-wrap">
 					{team.map(element => (
 						<TeamCard element={element} key={element.id} />
 					))}
@@ -27,7 +27,7 @@ const TeamSection = () => {
 			<img
 				src="/images/team-middle-astroid.png"
 				alt="bottom-astroid"
-				className="absolute left-1/3 bottom-0 z-[-10]"
+				className="absolute left-1/3 bottom-10 z-[-10]"
 			/>
 		</section>
 	);
