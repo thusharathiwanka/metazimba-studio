@@ -3,16 +3,16 @@ import ServicesCard from "./children/ServicesCard";
 
 const ServiceSection = () => {
 	return (
-		<section className="py-20 relative">
+		<section className="pt-10 relative">
 			<img
 				src="/images/services-left-astroid.png"
 				alt="left-astroid"
-				className="absolute left-10 top-10 z-[-10]"
+				className="absolute left-10 top-10 z-[-10] lg:flex hidden"
 			/>
 			<img
 				src="/images/services-right-astroid.png"
 				alt="right-astroid"
-				className="absolute right-10 top-28 z-[-10]"
+				className="absolute right-10 top-28 z-[-10] lg:flex hidden"
 			/>
 			<img
 				src="/images/services-middle-stars.png"
@@ -20,7 +20,7 @@ const ServiceSection = () => {
 				className="absolute left-1/2 top-20 transform -translate-x-1/2 z-[-10]"
 			/>
 			<div className="container mx-auto">
-				<h1 className="font-bold lg:text-6xl md:text-4xl pb-40 text-center text-meta-dark-gray pt-20">
+				<h1 className="font-bold lg:text-6xl sm:text-5xl text-4xl pb-40 text-center text-meta-dark-gray pt-20">
 					Our Services
 				</h1>
 				<div className="flex justify-center items-center py-20 gap-10 flex-wrap">
@@ -32,7 +32,7 @@ const ServiceSection = () => {
 			<img
 				src="/images/services-bottom-astroid.png"
 				alt="bottom-astroid"
-				className="absolute left-1/3 bottom-0 z-[-10]"
+				className="absolute left-1/3 bottom-0 z-[-10] lg:flex hidden"
 			/>
 		</section>
 	);

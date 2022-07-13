@@ -20,15 +20,15 @@ const Footer = () => {
 					</button>
 				</form>
 				<div className="pt-20 pb-10">
-					<div className="flex justify-between items-center flex-wrap md:">
+					<div className="flex justify-center items-center flex-wrap md:justify-between">
 						<Link to="/">
-							<img src="/images/logo.png" alt="logo-png" className="w-52" />
+							<img src="/images/logo.png" alt="logo-png" className="w-52 pb-4" />
 						</Link>
 						<Social isFooter />
 					</div>
-					<div className="flex justify-between items-center mt-10">
+					<div className="flex justify-center items-center mt-10 flex-wrap md:justify-between">
 						<Nav />
-						<p>Copyright &copy; 2022 All rights reserved</p>
+						<p className="pt-4">Copyright &copy; 2022 All rights reserved</p>
 					</div>
 				</div>
 			</div>

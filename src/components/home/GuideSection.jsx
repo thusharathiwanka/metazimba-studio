@@ -29,7 +29,7 @@ const GuideSection = () => {
 							</span>
 						</h1>
 						{guidelines.map(element => (
-							<Guideline element={element} />
+							<Guideline element={element} key={element.id} />
 						))}
 					</div>
 				</div>

@@ -15,7 +15,7 @@ const TeamSection = () => {
 				className="absolute right-10 top-0 z-[-10]"
 			/>
 			<div className="container mx-auto">
-				<h1 className="font-bold lg:text-6xl md:text-4xl pb-40 text-center text-meta-dark-gray pt-20">
+				<h1 className="font-bold lg:text-6xl md:text-5xl text-4xl pb-40 text-center text-meta-dark-gray pt-20">
 					Our Team
 				</h1>
 				<div className="flex justify-center items-center pb-32 flex-wrap">

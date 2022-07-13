@@ -9,14 +9,14 @@ const Header = () => {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<header className="w-full top-0 left-0 md:relative fixed bg-meta-gray md:p-10">
+		<header className="w-full top-0 left-0 md:relative fixed bg-meta-gray z-10 md:px-0 px-10 py-4">
 			<div className="container mx-auto flex items-center justify-between py-4">
 				<Link to="/">
 					<img src="/images/logo.png" alt="logo-png" className="w-52" />
 				</Link>
 				<div
 					onClick={() => setOpen(!open)}
-					className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+					className="text-3xl absolute right-8 top-8 cursor-pointer md:hidden"
 				>
 					{open ? <CgClose /> : <CgMenuRight />}
 				</div>
