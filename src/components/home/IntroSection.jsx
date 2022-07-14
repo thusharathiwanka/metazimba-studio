@@ -3,15 +3,23 @@ import { IoRocketOutline } from "react-icons/io5";
 
 const IntroSection = () => {
 	return (
-		<section className="bg-intro-pattern bg-no-repeat md:pt-0 pt-20 md:px-0 px-10">
+		<section className="lg:bg-intro-background bg-intro-pattern bg-no-repeat bg-cover bg-center md:pt-0 pt-20 md:px-0 px-10 lg:pb-64">
 			<div className="container mx-auto">
 				<div className="flex justify-start items-start lg:flex-row flex-col">
-					<div className="info flex justify-center items-start flex-col">
-						<h1 className="font-bold lg:text-8xl md:text-6xl text-4xl pb-12 pt-28">
+					<div className="flex justify-center md:items-start items-center flex-col">
+						<h1
+							className="font-bold lg:text-8xl md:text-6xl text-4xl pb-12 pt-28"
+							data-aos-delay="0"
+							data-aos="fade-up-right"
+						>
 							<span className="text-meta-purple">Discover</span>&nbsp;
-							<span className="text-meta-dark-gray">the World of Metaverse</span>
+							<span className="text-meta-dark-gray">
+								the <br /> World of <br /> Metaverse
+							</span>
 						</h1>
 						<Link
+							data-aos-delay="300"
+							data-aos="fade"
 							className="text-white py-4 bg-meta-purple px-8 flex items-center rounded-full"
 							to="/"
 						>
@@ -19,8 +27,12 @@ const IntroSection = () => {
 							<IoRocketOutline size={25} />
 						</Link>
 					</div>
-					<div>
-						<img src="/images/intro-img.png" alt="intro" className="h-auto w-full" />
+					<div className="w-full">
+						<img
+							src="/images/intro-img.png"
+							alt="intro"
+							className="img h-auto w-full lg:hidden block"
+						/>
 					</div>
 				</div>
 			</div>

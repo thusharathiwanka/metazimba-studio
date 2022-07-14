@@ -4,7 +4,7 @@ export default function Nav({ isFooter }) {
 	return (
 		<div>
 			<ul
-				className={`flex gap-8 font-medium text-meta-dark-gray ${
+				className={`flex gap-8 font-medium text-meta-dark-gray flex-wrap justify-center ${
 					isFooter ? `md:flex-row flex-col` : `flex-row`
 				}`}
 			>

@@ -1,8 +1,13 @@
 const TeamCard = ({ element }) => {
-	const { title, img, name } = element;
+	const { id, title, img, name } = element;
 
 	return (
-		<div className="mx-10 px-10 relative rounded-3xl pb-10 flex justify-center items-center">
+		<div
+			className="mx-10 px-10 relative rounded-3xl pb-10 flex justify-center items-center"
+			data-aos-delay={`${id}00`}
+			data-aos="fade-up-left"
+			data-aos-offset="500"
+		>
 			<div>
 				<div className="w-48 h-48 rounded-full">
 					<img src={img} alt={title} />

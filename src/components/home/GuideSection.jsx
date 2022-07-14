@@ -16,11 +16,15 @@ const GuideSection = () => {
 			/>
 			<div className="container mx-auto">
 				<div className="flex justify-center gap-20 md:flex-nowrap flex-wrap">
-					<div className="">
+					<div data-aos-delay="100" data-aos="fade-up-right" data-aos-offset="500">
 						<img src="/images/guide-img.png" alt="intro" className="object-cover" />
 					</div>
 					<div>
-						<h1 className="font-bold lg:text-6xl sm:5xl text-4xl pb-12">
+						<h1
+							className="font-bold lg:text-6xl sm:5xl text-4xl pb-12"
+							data-aos-delay="200"
+							data-aos="fade"
+						>
 							<span className="text-meta-purple">Get Started </span>
 							<span className="text-meta-dark-gray">
 								with

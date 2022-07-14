@@ -20,7 +20,11 @@ const ServiceSection = () => {
 				className="absolute left-1/2 top-20 transform -translate-x-1/2 z-[-10]"
 			/>
 			<div className="container mx-auto">
-				<h1 className="font-bold lg:text-6xl sm:text-5xl text-4xl pb-40 text-center text-meta-dark-gray pt-20">
+				<h1
+					data-aos-delay="0"
+					data-aos="fade"
+					className="font-bold lg:text-6xl sm:text-5xl text-4xl pb-40 text-center text-meta-dark-gray pt-20"
+				>
 					Our Services
 				</h1>
 				<div className="flex justify-center items-center py-20 gap-10 flex-wrap">
