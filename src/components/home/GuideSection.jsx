@@ -3,7 +3,7 @@ import Guideline from "./children/Guideline";
 
 const GuideSection = () => {
 	return (
-		<section className="pt-40 pb-28 relative px-10">
+		<section className="md:pt-40 pt-10 pb-28 relative px-10">
 			<img
 				src="/images/guidelines-right-stars.png"
 				alt="right-astroid"

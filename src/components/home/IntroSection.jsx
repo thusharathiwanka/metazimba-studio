@@ -1,22 +1,36 @@
 import { Link } from "react-router-dom";
 import { IoRocketOutline } from "react-icons/io5";
 
+import useWindowDimensions from "../../hooks/useDimensions";
+
 const IntroSection = () => {
+	const { width } = useWindowDimensions();
+
 	return (
 		<section className="lg:bg-intro-background bg-intro-pattern bg-no-repeat bg-cover bg-center md:pt-0 pt-20 md:px-0 px-10 lg:pb-64">
 			<div className="container mx-auto">
-				<div className="flex justify-start items-start lg:flex-row flex-col">
+				<div className="flex justify-start md:items-start items-center lg:flex-row flex-col">
 					<div className="flex justify-center md:items-start items-center flex-col">
-						<h1
-							className="font-bold lg:text-8xl md:text-6xl text-4xl pb-12 pt-28"
-							data-aos-delay="0"
-							data-aos="fade-up-right"
-						>
-							<span className="text-meta-purple">Discover</span>&nbsp;
-							<span className="text-meta-dark-gray">
-								the <br /> World of <br /> Metaverse
-							</span>
-						</h1>
+						{width >= 768 ? (
+							<h1
+								className="font-bold lg:text-8xl md:text-6xl text-4xl pb-12 pt-28"
+								data-aos-delay="0"
+								data-aos="fade-up-right"
+							>
+								<span className="text-meta-purple">Discover</span>&nbsp;
+								<span className="text-meta-dark-gray">
+									the <br /> World of <br /> Metaverse
+								</span>
+							</h1>
+						) : (
+							<h1
+								className="font-bold lg:text-8xl md:text-6xl text-4xl pb-12 pt-28 text-center text-meta-dark-gray"
+								data-aos-delay="0"
+								data-aos="fade-up-right"
+							>
+								Discover the World of Metaverse
+							</h1>
+						)}
 						<Link
 							data-aos-delay="300"
 							data-aos="fade"
