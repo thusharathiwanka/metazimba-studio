@@ -5,7 +5,7 @@ const TeamCard = ({ element }) => {
 		<div
 			className="mx-10 px-10 relative rounded-3xl pb-14 flex justify-center items-center"
 			data-aos-delay={`${id}00`}
-			data-aos="fade-up-left"
+			data-aos="fade-up"
 		>
 			<div>
 				<div className="w-48 h-48 rounded-full">

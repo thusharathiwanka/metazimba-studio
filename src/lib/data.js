@@ -1,4 +1,4 @@
-const data = [
+const services = [
 	{
 		id: 1,
 		title: "Marketplace",
@@ -46,4 +46,4 @@ const team = [
 	{ id: 4, title: "Sales Manager", name: "John Doe", img: "/images/team-4.png" },
 ];
 
-export { data, guidelines, slides, team };
+export { services, guidelines, slides, team };

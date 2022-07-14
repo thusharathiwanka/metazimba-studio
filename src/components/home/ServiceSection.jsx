@@ -1,4 +1,4 @@
-import { data } from "../../lib/data";
+import { services } from "../../lib/data";
 import ServicesCard from "./children/ServicesCard";
 
 const ServiceSection = () => {
@@ -28,7 +28,7 @@ const ServiceSection = () => {
 					Our Services
 				</h1>
 				<div className="flex justify-center items-center md:py-20 pb-0 pt-24 gap-10 flex-wrap">
-					{data.map(element => (
+					{services.map(element => (
 						<ServicesCard element={element} key={element.id} />
 					))}
 				</div>
