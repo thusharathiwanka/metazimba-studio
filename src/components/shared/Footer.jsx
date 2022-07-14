@@ -19,7 +19,11 @@ const Footer = () => {
 					data-aos-delay="100"
 					data-aos="fade-up"
 				>
-					<input type="text" className="w-full py-3 px-8 outline-none rounded-full" />
+					<input
+						type="text"
+						className="w-full py-3 px-8 outline-none rounded-full shadow"
+						placeholder="Enter your email here..."
+					/>
 					<button
 						type="submit"
 						className="text-white py-3 bg-meta-purple px-10 text-lg flex items-center rounded-full mt-5"
@@ -34,11 +38,7 @@ const Footer = () => {
 						</Link>
 						<Social isFooter />
 					</div>
-					<div
-						className="flex justify-center items-center mt-10 flex-wrap md:justify-between"
-						data-aos-delay="300"
-						data-aos="fade-up"
-					>
+					<div className="flex justify-center items-center mt-10 flex-wrap md:justify-between">
 						<Nav />
 						<p className="pt-4">Copyright &copy; 2022 All rights reserved</p>
 					</div>
