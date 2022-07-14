@@ -5,7 +5,7 @@ import Social from "./children/Social";
 
 const Footer = () => {
 	return (
-		<footer className="bg-footer-pattern bg-no-repeat bg-bottom md:pt-0 pt-20">
+		<footer className="bg-footer-pattern bg-no-repeat bg-bottom pt-5">
 			<div className="container mx-auto md:px-0 px-10">
 				<h1
 					className="pt-14 text-4xl pb-12 font-medium text-center text-meta-dark-gray"
@@ -30,7 +30,7 @@ const Footer = () => {
 				<div className="pt-20 pb-10" data-aos-delay="200" data-aos="fade-up">
 					<div className="flex justify-center items-center flex-wrap md:justify-between">
 						<Link to="/">
-							<img src="/images/logo.png" alt="logo-png" className="w-52 pb-4" />
+							<img src="/images/logo.png" alt="logo-png" className="w-52 pr-5" />
 						</Link>
 						<Social isFooter />
 					</div>

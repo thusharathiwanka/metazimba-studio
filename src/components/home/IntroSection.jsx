@@ -34,7 +34,7 @@ const IntroSection = () => {
 						<Link
 							data-aos-delay="300"
 							data-aos="fade"
-							className="text-white py-4 bg-meta-purple px-8 flex items-center rounded-full"
+							className="text-white py-4 bg-meta-purple px-8 flex items-center rounded-full md:mb-0 mb-10"
 							to="/"
 						>
 							<button className="pr-5 text-lg font-medium tracking-wider">Explore</button>
@@ -45,7 +45,7 @@ const IntroSection = () => {
 						<img
 							src="/images/intro-img.png"
 							alt="intro"
-							className="img h-auto w-full lg:hidden block"
+							className="img h-auto w-full lg:hidden sm:block hidden"
 						/>
 					</div>
 				</div>

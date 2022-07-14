@@ -3,7 +3,7 @@ import Guideline from "./children/Guideline";
 
 const GuideSection = () => {
 	return (
-		<section className="md:pt-40 pt-10 pb-28 relative px-10">
+		<section className="md:pt-40 md:pb-28 py-10 relative px-10">
 			<img
 				src="/images/guidelines-right-stars.png"
 				alt="right-astroid"
@@ -16,7 +16,7 @@ const GuideSection = () => {
 			/>
 			<div className="container mx-auto">
 				<div className="flex justify-center gap-20 md:flex-nowrap flex-wrap">
-					<div data-aos-delay="100" data-aos="fade-up-right" data-aos-offset="500">
+					<div data-aos-delay="100" data-aos="fade-up-right">
 						<img src="/images/guide-img.png" alt="intro" className="object-cover" />
 					</div>
 					<div>

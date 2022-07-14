@@ -3,7 +3,6 @@ const ServicesCard = ({ element }) => {
 
 	return (
 		<div
-			data-aos-offset="100"
 			data-aos-delay={`${id}00`}
 			data-aos="fade-up"
 			className={`${color} pt-36 mx-10 px-10 relative rounded-3xl pb-10 lg:w-1/5 md:w-1/3 w-auto mb-36 md:m-10`}
