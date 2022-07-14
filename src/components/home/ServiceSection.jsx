@@ -1,6 +1,10 @@
 import { services } from "../../lib/data";
 import ServicesCard from "./children/ServicesCard";
 
+/**
+ * Services section component
+ * @returns {JSX.Element} section - Services component
+ */
 const ServiceSection = () => {
 	return (
 		<section className="pt-10 relative">

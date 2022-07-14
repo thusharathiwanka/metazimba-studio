@@ -1,6 +1,10 @@
 import { team } from "../../lib/data";
 import TeamCard from "./children/TeamCard";
 
+/**
+ * Team section component
+ * @returns {JSX.Element} section - Team component
+ */
 const TeamSection = () => {
 	return (
 		<section className="md:pb-20 pb-5 pt-10 relative">

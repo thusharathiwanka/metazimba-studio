@@ -5,6 +5,10 @@ import ServiceSection from "../components/home/ServiceSection";
 import SliderSection from "../components/home/SliderSection";
 import TeamSection from "../components/home/TeamSection";
 
+/**
+ * Index page component
+ * @returns {JSX.Element} Layout - All the index page sections wrapped with common layout
+ */
 const Home = () => {
 	return (
 		<Layout>

@@ -1,3 +1,8 @@
+/**
+ * Slide component in slider section
+ * @param {object} element - Component props (slide)
+ * @returns {JSX.Element} div - Slide component
+ */
 const Slider = ({ element }) => {
 	const { img } = element;
 

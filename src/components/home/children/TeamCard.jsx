@@ -1,3 +1,8 @@
+/**
+ * Person component in team section
+ * @param {object} element - Component props (person in team)
+ * @returns {JSX.Element} div - Person component
+ */
 const TeamCard = ({ element }) => {
 	const { id, title, img, name } = element;
 

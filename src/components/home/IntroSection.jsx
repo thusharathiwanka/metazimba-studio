@@ -3,6 +3,10 @@ import { IoRocketOutline } from "react-icons/io5";
 
 import useWindowDimensions from "../../hooks/useDimensions";
 
+/**
+ * Intro section component
+ * @returns {JSX.Element} section - Intro component
+ */
 const IntroSection = () => {
 	const { width } = useWindowDimensions();
 

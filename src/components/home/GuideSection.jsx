@@ -1,6 +1,10 @@
 import { guidelines } from "../../lib/data";
 import Guideline from "./children/Guideline";
 
+/**
+ * Guide section component
+ * @returns {JSX.Element} section - Guideline component
+ */
 const GuideSection = () => {
 	return (
 		<section className="md:pt-40 md:pb-28 py-10 relative px-10">

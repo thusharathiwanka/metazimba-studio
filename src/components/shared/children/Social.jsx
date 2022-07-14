@@ -5,7 +5,12 @@ import {
 	RiYoutubeFill,
 } from "react-icons/ri";
 
-export default function Social({ isFooter }) {
+/**
+ * Social links component
+ * @param {boolean} props.isFooter - true if the component is in the footer false otherwise
+ * @returns {JSX.Element} div - Social links component
+ */
+const Social = ({ isFooter }) => {
 	return (
 		<div className={`justify-center py-2 ${!isFooter ? `lg:flex hidden` : `flex`}`}>
 			<div className="flex gap-6">
@@ -24,4 +29,6 @@ export default function Social({ isFooter }) {
 			</div>
 		</div>
 	);
-}
+};
+
+export default Social;

@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import Nav from "./children/Nav";
 import Social from "./children/Social";
 
+/**
+ * Footer component
+ * @returns {JSX.Element} footer - Footer component
+ */
 const Footer = () => {
 	return (
 		<footer className="bg-footer-pattern bg-no-repeat bg-bottom pt-5">

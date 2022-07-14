@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 
-export default function useWindowDimensions() {
+/**
+ * Custom hook for track window dimensions
+ * @returns {object} windowSize - object consists of width, height of the window object
+ */
+const useWindowDimensions = () => {
 	const [windowSize, setWindowSize] = useState({
 		width: "",
 		height: "",
@@ -22,4 +26,6 @@ export default function useWindowDimensions() {
 	}, []);
 
 	return windowSize;
-}
+};
+
+export default useWindowDimensions;

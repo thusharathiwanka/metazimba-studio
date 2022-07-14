@@ -6,6 +6,10 @@ import "swiper/css";
 import Slider from "./children/Slider";
 import { slides } from "../../lib/data";
 
+/**
+ * Slider section component
+ * @returns {JSX.Element} section - Slider component
+ */
 const SliderSection = () => {
 	SwiperCore.use([Autoplay]);
 

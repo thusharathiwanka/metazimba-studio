@@ -1,3 +1,8 @@
+/**
+ * Service component in services section
+ * @param {object} element - Component props (service)
+ * @returns {JSX.Element} div - Service component
+ */
 const ServicesCard = ({ element }) => {
 	const { id, title, img, description, color, title_color } = element;
 

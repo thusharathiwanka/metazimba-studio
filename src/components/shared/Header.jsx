@@ -5,6 +5,10 @@ import { CgMenuRight, CgClose } from "react-icons/cg";
 import Nav from "./children/Nav";
 import Social from "./children/Social";
 
+/**
+ * Header component
+ * @returns {JSX.Element} header - Header component
+ */
 const Header = () => {
 	const [open, setOpen] = useState(false);
 

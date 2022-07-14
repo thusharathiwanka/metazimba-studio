@@ -1,3 +1,8 @@
+/**
+ * Guideline component in guideline section
+ * @param {object} element - Component props (guideline)
+ * @returns {JSX.Element} div - Guideline component
+ */
 const Guideline = ({ element }) => {
 	const { id, title } = element;
 
