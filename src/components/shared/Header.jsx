@@ -9,7 +9,11 @@ const Header = () => {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<header className="w-full top-0 left-0 md:relative fixed bg-meta-gray z-10 md:px-0 px-10 py-4">
+		<header
+			className="w-full top-0 left-0 md:relative fixed bg-meta-gray z-10 md:px-0 px-10 py-4"
+			data-aos-delay="300"
+			data-aos="fade-down"
+		>
 			<div className="container mx-auto flex items-center justify-between py-4">
 				<Link to="/">
 					<img src="/images/logo.png" alt="logo-png" className="w-52" />

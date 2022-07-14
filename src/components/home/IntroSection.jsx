@@ -7,16 +7,16 @@ const IntroSection = () => {
 	const { width } = useWindowDimensions();
 
 	return (
-		<section className="lg:bg-intro-background bg-intro-pattern bg-no-repeat bg-cover bg-center md:pt-0 pt-20 md:px-0 px-10 lg:pb-64">
+		<section
+			className="lg:bg-intro-background bg-intro-pattern bg-no-repeat bg-cover bg-center md:pt-0 pt-20 md:px-0 px-10 lg:pb-64"
+			data-aos-delay="0"
+			data-aos="fade"
+		>
 			<div className="container mx-auto">
 				<div className="flex justify-start md:items-start items-center lg:flex-row flex-col">
 					<div className="flex justify-center md:items-start items-center flex-col">
 						{width >= 768 ? (
-							<h1
-								className="font-bold lg:text-8xl md:text-6xl text-4xl pb-12 pt-28"
-								data-aos-delay="0"
-								data-aos="fade-up-right"
-							>
+							<h1 className="font-bold lg:text-8xl md:text-6xl text-4xl pb-12 pt-28">
 								<span className="text-meta-purple">Discover</span>&nbsp;
 								<span className="text-meta-dark-gray">
 									the <br /> World of <br /> Metaverse
@@ -26,14 +26,14 @@ const IntroSection = () => {
 							<h1
 								className="font-bold lg:text-8xl md:text-6xl text-4xl pb-12 pt-28 text-center text-meta-dark-gray"
 								data-aos-delay="0"
-								data-aos="fade-up-right"
+								data-aos="fade"
 							>
 								Discover the World of Metaverse
 							</h1>
 						)}
 						<Link
-							data-aos-delay="300"
-							data-aos="fade"
+							data-aos-delay="400"
+							data-aos="fade-up"
 							className="text-white py-4 bg-meta-purple px-8 flex items-center rounded-full md:mb-0 mb-10"
 							to="/"
 						>
